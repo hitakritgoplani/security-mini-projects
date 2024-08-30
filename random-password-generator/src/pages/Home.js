@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import '../styles/Home.css'
 
 export default function Home() {
   const [password, setPassword] = useState('');
@@ -15,7 +16,7 @@ export default function Home() {
   };
 
   const increaseLength = () => {
-    if (passwordLength < 49){
+    if (passwordLength <= 49){
         setPasswordLength(passwordLength + 1);
     }
   };
@@ -37,8 +38,8 @@ export default function Home() {
 
   return (
     <div className="home-root">
-        <div><h1>Random Password Generator</h1></div>
-        <div className="generated-password">{password}</div>
+        <div className="generated-password">Your generated password is <span className='gen-pass'>{password}</span></div>
+        <label htmlFor="slide">Password Length</label>
         <div className="slider-div">
             <button onClick={decreaseLength} className="btn" id="minus">-</button>
             <input
@@ -50,7 +51,7 @@ export default function Home() {
             className="options"
             id="length"
             />
-            <span className="slider-value">{passwordLength}</span>
+            <span id='slide' className="slider-value">{passwordLength}</span>
             <button onClick={increaseLength} className="btn" id="plus">+</button>
         </div>
         <div className="options-div">
@@ -87,7 +88,7 @@ export default function Home() {
             />
             <label htmlFor="number">Numbers</label>
         </div>
-        <button onClick={generatePassword}>Generate</button>
-        </div>
+        <button className='gen-btn' onClick={generatePassword}>Generate</button>
+    </div>
   );
 }

@@ -1,0 +1,57 @@
+.home-root{
+    margin-top: 5.5dvh;
+    width: 100dvw;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #efeaea;
+}
+
+.generated-password{
+    font-weight: normal;
+    width: 35dvw;
+    height: 8dvh;
+    cursor: text;
+    padding: 10px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.3dvh;
+}
+
+.gen-pass{
+    color: #8446da;
+    font-weight: 800;
+}
+
+.gen-btn{
+    margin-bottom: 8dvh;
+    width: 20dvw;
+    height: 8dvh;
+    border: 2px solid #a570ee;
+    border-radius: 8dvh;
+    background-color: #915dda;
+    font-size: large;
+    box-shadow: #a570ee 5px 5px;
+    cursor: pointer;
+    color: white;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.gen-btn:hover{
+    background-color: #7c1fff;
+	transition: ease-in-out 0.2s;
+	box-shadow: 5px 5px #000000;
+    border: 1px black solid;
+}
+
+.gen-btn::after{
+    transform: translate3d(10px, 10px, 100px);
+
+}
