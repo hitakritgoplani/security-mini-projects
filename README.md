@@ -1,3 +1,3 @@
-# security-mini-projects
+## Security Mini Projects
 
-# This repo consists of mini projects/tools realted to various security concepts
+A repo to dive into the world of cybersecurity with these mini projects that covers various essential security concepts. 
