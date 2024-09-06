@@ -1,6 +1,6 @@
 ## Random Password Generator using React
 
-Check out the website at https://random-pass-gen-lake.vercel.app/
+Check out the project at https://random-pass-gen-lake.vercel.app/
 
 **Disclaimer**: This project is intended for educational purposes only. Please exercise caution when using generated passwords and consider using dedicated password management tools for enhanced security.
 
