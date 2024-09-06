@@ -4,7 +4,7 @@ Check out the project at https://random-pass-gen-lake.vercel.app/
 
 **Disclaimer**: This project is intended for educational purposes only. Please exercise caution when using generated passwords and consider using dedicated password management tools for enhanced security.
 
-**Project Overview**: This React-based application provides a user-friendly interface for generating random, strong passwords. The generated passwords adhere to best practices for password security, incorporating a combination of uppercase and lowercase letters, numbers, and special characters. Users can customize the password length and choose specific character sets to tailor the generated passwords to their preferences. 
+**Project Overview**: This React-based application provides a user-friendly interface for generating random, strong passwords. The generated passwords adhere to best practices for password security, incorporating a combination of uppercase and lowercase letters, numbers, and special characters based on the customization done by the users. Users can also customize the password length and choose specific character sets to tailor the generated passwords to their preferences. 
 
 ## Educational Value
 **Understanding the Importance of Strong Passwords**
